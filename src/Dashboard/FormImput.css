@@ -1,0 +1,191 @@
+.Indications {
+  text-align: center;
+  font-weight: bold;
+  font-size: 22px;
+  margin-bottom: 50px;
+  margin-top: 30px;
+}
+
+.search--base {
+  background-color: #ebebeb;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 70%;
+  margin: auto;
+}
+
+.search__container {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 0px;
+  width: 70%;
+  height: 40px;
+  margin: auto; /* Agrega margen automático para centrar */
+}
+.search__label {
+  font-size: 20px;
+}
+
+.search__input,
+.search__input-count {
+  width: 100%;
+  padding: 10px 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box; 
+  text-align: left;
+}
+
+.search__label-count {
+  font-size: 20px;
+  margin-left:15px;
+  margin-right: 30px;  
+}
+
+.button-search {
+  display: flex;
+  width: 100px;
+  height: 40px;
+  margin-top: 10px;
+  margin-bottom: 15px;
+  border-radius: 30px;
+  background-color: #ffde00;
+  border: none;
+  font-weight: bold;
+  text-align: center;
+  align-items: center;
+  margin-left: 40px;
+  gap: 10px; 
+}
+
+.line {
+  flex-grow: 1;
+  height: 1px;
+  background-color: #ccc;
+  margin: 30px 0;
+}
+
+.quotes-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.quote-container {
+  border: 1px solid #ccc;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+  border-radius: 10px;
+  width: 200px;
+  margin: 10px;
+  flex-basis: calc(33.33% - 20px); 
+  margin: auto;
+}
+
+.frase {
+  margin: 0;
+  text-align: center;
+  font-weight: bold;
+}
+
+.personaje {
+  margin: 0;
+  flex-basis: 100%;
+  margin-top: 10px;
+  text-align: left;
+}
+.quote-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  flex-wrap: wrap;
+}
+
+.quote-container img {
+  max-width: 80px;
+  margin-left: 120px;
+}
+.Logo-homero {
+  display: flex;
+  justify-content: center;
+  width: 380px;
+}
+
+
+.number{
+ text-align: center;
+ font-size: 60px;
+ color: gray;
+ margin-top: -20px;
+}
+.found {
+text-align: center;
+margin-top: -50px;
+color: gray;
+font-size: 30px;
+}
+@media (max-width: 390px) {
+  .search--base {
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centrar verticalmente */
+    width: 100%; /* Opcional: ajustar el ancho al 100% */
+    margin: auto; /* Opcional: centrar horizontalmente */
+  }
+
+  .search__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centrar verticalmente */
+    width: 100%; /* Opcional: ajustar el ancho al 100% */
+  }
+
+  .search__label{
+    margin: -20px;
+    margin-right:130px;
+  }
+  .search__label-count{
+    margin: 10px;
+    margin-right:240px;
+  }
+  
+  .search__input{
+    margin: 20px;
+    width: 300px;
+  }
+  .search__input-count{
+    margin: -10px 20px;
+    width: 300px;
+
+  }
+  
+  .button-search{
+    margin: 40px;
+
+  }
+  
+  .line{
+    margin: -20px 20px;
+  }
+
+  .quote-container {
+    margin: 30px;
+    margin-left: auto; /* Centrar horizontalmente */
+    margin-right: auto; /* Centrar horizontalmente */
+    width: 60%; /* Opcional: ajustar el ancho al 80% */
+  }
+
+  .quote-container img {
+    transform: scale(1.0);
+    margin-left: 100px;
+  }
+
+}
