@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "./static/css/main.b2f593c7.css",
+    "main.js": "./static/js/main.295c5219.js",
+    "static/js/453.ef3ed787.chunk.js": "./static/js/453.ef3ed787.chunk.js",
+    "static/media/Los_Simpson.png": "./static/media/Los_Simpson.c6190f0055d7740a2b55.png",
+    "static/media/simpsons.png": "./static/media/simpsons.6c32ee8e3a7a3cfb6c4c.png",
+    "static/media/d'oh.png": "./static/media/d'oh.4cd7a55181d92bf6bf12.png",
+    "index.html": "./index.html",
+    "main.b2f593c7.css.map": "./static/css/main.b2f593c7.css.map",
+    "main.295c5219.js.map": "./static/js/main.295c5219.js.map",
+    "453.ef3ed787.chunk.js.map": "./static/js/453.ef3ed787.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b2f593c7.css",
+    "static/js/main.295c5219.js"
+  ]
+}
